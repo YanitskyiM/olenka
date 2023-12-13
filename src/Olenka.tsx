@@ -6,7 +6,10 @@ export function Olenka() {
     <>
       <Confetti width={width} height={height} />
       <h1>
-        <b style={{fontSize: '5rem'}}>Olenka</b> <br /> is the best girl in the world
+        <a href="https://www.instagram.com/mazurolena/" target="_blank">
+          <b style={{ fontSize: "5rem" }}>Olenka</b>
+        </a>{" "}
+        <br /> is the best girl in the world
       </h1>
     </>
   );
