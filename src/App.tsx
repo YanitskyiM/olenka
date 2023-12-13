@@ -1,25 +1,17 @@
-import { useState } from 'react'
-import './App.css'
-import {useWindowSize} from "react-use";
-import Confetti from 'react-confetti'
+import "./App.css";
+import { Link } from "react-router-dom";
 
 function App() {
-    const [showConfetti, setShowConfetti] = useState(false);
-    const { width, height } = useWindowSize()
-
   return (
     <>
-        {showConfetti &&<Confetti
-            width={width}
-            height={height}
-        />}
       <h1>Do you want to know who is the best girl in the world?</h1>
-      <h2>Press button below</h2>
-        <button className="glow-on-hover" type="button" onClick={() => setShowConfetti(true)}>
-            Reveal
+      <Link to="/olenka/reveal">
+        <button className="glow-on-hover" type="button">
+          Reveal
         </button>
+      </Link>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
