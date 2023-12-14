@@ -2,9 +2,8 @@ function FormPage() {
   const submit = (e: any) => {
     e.preventDefault();
     const formData = new FormData(e.target);
-    const targetUrl = import.meta.env.VITE_GOOGLE_SHEETS_URL;
 
-    fetch(`${targetUrl}`, {
+    fetch( '',{
       method: "POST",
       body: formData,
     });
