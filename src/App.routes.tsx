@@ -5,7 +5,7 @@ import FormPage from "./FormPage.tsx";
 export enum APP_LINKS {
   HOME = "/olenka",
   OLENKA = "/olenka/reveal",
-  FORM = "/olenka/form",
+  FORM = "/olenka/form-test",
 }
 
 export const APP_ROUTES = [

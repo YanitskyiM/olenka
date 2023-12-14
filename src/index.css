@@ -22,12 +22,6 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  max-width: 70vh;
-  line-height: 1.1;
-}
-
 .glow-on-hover {
   width: 220px;
   height: 50px;
