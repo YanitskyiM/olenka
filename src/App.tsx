@@ -12,9 +12,9 @@ function App() {
           Reveal
         </button>
       </Link>
-        <footer className='absolute bottom-0'>
+        <footer className='absolute pb-2 transform left-1/2 -translate-x-1/2 bottom-0'>
             <Link to="/olenka/form-test">
-                Form
+                Contact Me
             </Link>
         </footer>
     </>
